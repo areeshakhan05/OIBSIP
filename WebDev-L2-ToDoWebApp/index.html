@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>TaskFlow 📝</h1>
+    <p class="subtitle">Manage your daily tasks efficiently</p>
+
+    <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Enter a new task...">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+
+    <div class="lists">
+
+        <div class="task-section">
+            <h2>
+                Pending Tasks 
+                <span id="pendingCount">0 pending</span>
+            </h2>
+
+            <ul id="pendingTasks"></ul>
+        </div>
+
+
+        <div class="task-section">
+            <h2>
+                Completed Tasks
+                <span id="completedCount">0 completed</span>
+            </h2>
+
+            <ul id="completedTasks"></ul>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
