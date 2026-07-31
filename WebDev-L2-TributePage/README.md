@@ -21,8 +21,11 @@ A responsive tribute page built using **HTML5** and **CSS3** to honor an inspiri
 ### Biography
 ![Biography](screenshots/biography.png)
 
-### Achievements
-![Achievements](screenshots/achievements.png)
+### Career Highlights
+![CareerHighlights](screenshots/careerhighlights.png)
+
+### Quote
+![CareerHighlights](screenshots/quote.png)
 
 ## Author
 **Areesha Khan**
